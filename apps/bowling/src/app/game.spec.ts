@@ -1,8 +1,8 @@
 // game.spec.ts
-test('gutter game', () => {
+test('all one', () => {
   const game = new Game();
   for (let i = 0; i < 20; i++) {
-    game.roll(0);
+    game.roll(1);
   }
-  expect(game.score).toBe(0);
+  expect(game.score).toBe(20);
 });
